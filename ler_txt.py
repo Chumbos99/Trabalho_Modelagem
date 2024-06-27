@@ -11,7 +11,7 @@ def ler_dados_arquivo(nome_arquivo):
         return np.array([float(valor) for valor in linha.split()])
 
 
-pontos = ler_dados_arquivo('dados_arduino.txt')
+pontos = ler_dados_arquivo('Controle_Fan2.txt')
 pontos -= pontos[0]
 # Passo entre os pontos
 passo = 0.733

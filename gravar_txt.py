@@ -6,8 +6,7 @@ ser = serial.Serial('COM5', 9600)
 time.sleep(2)  # Aguarde 2 segundos para estabilizar a conexão
 
 # Nome do arquivo para salvar os dados
-filename = 'dados_arduino.txt'
-
+filename = 'Controle_Fan2.txt'
 try:
     with open(filename, 'a') as file:
         while True:
